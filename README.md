@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+    updated: Monday, 5rd September 2022
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align=center>
+    <a href="https://ressume-builder.vercel.app">
+        <img width=200 src="assets/logo.ico" alt="Resume Builder">
+    </a>
+    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic">You need a resume, I need a holiday</p>
+</div>
 
-## Available Scripts
+# [Resume Builder](https://ressume-builder.vercel.app)
 
-In the project directory, you can run:
+## What's new?
 
-### `npm start`
+-   Everything
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   [Introduction](#introduction)
+-   [Acknowledgement](#acknowledgement)
+-   [Demo](#demo)
+-   [Features](#features)
+-   [Tech Stack Used](#tech-stack-used-💻)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction
 
-### `npm run build`
+-   This was a project which was to be built in a very short time.
+-   It helped me learn the basics of Firebase
+-   Also it totally challenged my abilities
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgement
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Me, My efforts and self Motivations
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Authentication using Phone Number-Firebase**
+   ![img](./assets/auth.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Home**
+   ![Home](./assets/home.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Pages**
 
-## Learn More
+|     **Based on Experience**     |      **Select Country**      |
+| :-----------------------------: | :--------------------------: |
+| ![img](./assets/Experience.png) | ![img](./assets/country.png) |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Drag n Drop**
+   ![Drag n Drop](./assets/drag%20and%20drop.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. **Custom Templatees**
+   ![templates](./assets/templates.png)
 
-### Code Splitting
+6. **Final Page**
+   ![Contact](./assets/Contact.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-   Completely Free of Cost
+-   Get templates according to your Experience
+-   Authentication using Phone Number
+-   No data-loss on page Refress
+-   More Templates comming soon
+-   Drag and Drop Feature
+-   Live Preview
+-   Download as PDF
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tech Stack Used 💻
 
-### Advanced Configuration
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![BootStrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![IconFinder](https://img.shields.io/badge/Iconfinder-1A1B1F?style=for-the-badge&logo=Iconfinder&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Support 🙏
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+see [LICENSE]
+
+
+[license]: https://github.com/warmachine028/resume-builder/blob/main/LICENSE
+[resource]: https://github.com/Envoy-VC/awesome-badges
