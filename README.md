@@ -1,4 +1,4 @@
-    updated: Monday, 5rd September 2022
+    updated: Monday, 5th September 2022
 
 <div align=center>
     <a href="https://ressume-builder.vercel.app">
