@@ -20,9 +20,7 @@ const ContactInfo = () => {
 		pinCode: resumeData?.pinCode || "",
 		phone: resumeData?.phone || "",
 		email: resumeData?.email || "",
-		gist:
-			resumeData?.gist ||
-			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati a aliquid quo repellendus omnis quibusdam vero id sint similique placeat, delectus odio sapiente. Soluta natus dolores explicabo earum consectetur laudantium!, Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quidem error mollitia, numquam ipsum illo debitis ab odit ullam consequatur",
+		gist: resumeData?.gist || "",
 	}
 	const download = () => savePDF(contentArea.current, { fileName: `RESUME_${initialState.firstName} ${initialState.lastName}` })
 	const [formData, setFormData] = useState(initialState)
@@ -116,11 +114,11 @@ const ContactInfo = () => {
 							>
 								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group">
 									<Form.Label style={{ fontWeight: 500, paddingLeft: 0 }}>First Name</Form.Label>
-									<Form.Control type="text" placeholder="eg. Varun" onChange={handleChange} name="firstName" value={formData.firstName} />
+									<Form.Control type="text" placeholder="eg. John" onChange={handleChange} name="firstName" value={formData.firstName} />
 								</Form.Group>
 								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group">
 									<Form.Label style={{ fontWeight: 500, paddingLeft: 0 }}>Surname</Form.Label>
-									<Form.Control type="text" placeholder="eg. Mishra" onChange={handleChange} name="lastName" value={formData.lastName} />
+									<Form.Control type="text" placeholder="eg. Doe" onChange={handleChange} name="lastName" value={formData.lastName} />
 								</Form.Group>
 							</div>
 							<div
@@ -174,13 +172,26 @@ const ContactInfo = () => {
 									justifyContent: "space-between",
 								}}
 							>
-								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group" >
+								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group">
 									<Form.Label style={{ fontWeight: 500, paddingLeft: 0 }}>Phone</Form.Label>
 									<Form.Control className="" type="tel" placeholder="eg. +91 22 1234 5677" onChange={handleChange} name="phone" value={formData.phone} />
 								</Form.Group>
-								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group" >
+								<Form.Group style={{ width: "230px" }} className="mb-3 row input-group">
 									<Form.Label style={{ fontWeight: 500, paddingLeft: 0 }}>Email</Form.Label>
-									<Form.Control className="" type="email" placeholder="eg. mishra.varun@email.com" onChange={handleChange} name="email" value={formData.email} />
+									<Form.Control className="" type="email" placeholder="eg. john.doe@email.com" onChange={handleChange} name="email" value={formData.email} />
+								</Form.Group>
+							</div>
+							<div
+								style={{
+									width: 456,
+									display: "flex",
+									flexDirection: "row",
+									justifyContent: "space-between",
+								}}
+							>
+								<Form.Group style={{ width: "-webkit-fill-available" }} className="mb-3 row input-group">
+									<Form.Label style={{ fontWeight: 500, paddingLeft: 0 }}>Brief Introduction</Form.Label>
+									<Form.Control as="textarea" rows={5} type="text" placeholder="eg. Software Engineer" onChange={handleChange} name="gist" value={formData.gist} />
 								</Form.Group>
 							</div>
 						</div>
