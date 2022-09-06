@@ -1,4 +1,4 @@
-    updated: Monday, 5th September 2022
+    updated: Tuesday, 6th September 2022
 
 <div align=center>
     <a href="https://ressume-builder.vercel.app">
@@ -66,7 +66,7 @@
 -   Completely Free of Cost
 -   Get templates according to your Experience
 -   Authentication using Phone Number
--   No data-loss on page Refress
+-   No data-loss on page Refresh
 -   More Templates comming soon
 -   Drag and Drop Feature
 -   Live Preview
